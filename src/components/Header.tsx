@@ -66,8 +66,7 @@ export const Header: React.FC = () => {
           <span className="flex items-center space-x-1.5">
             <PhoneCall className="w-3.5 h-3.5 text-amber-400" />
             <span className="text-slate-200">Hotline Giảng đường:</span>
-            <span className="font-bold text-amber-300">024.3756.9999</span>
-            <span className="text-blue-300 text-[11px]">(Máy lẻ: 101 - P. Kỹ thuật)</span>
+            <span className="font-bold text-amber-300">090.375.9999</span>
           </span>
         </div>
 
