@@ -462,7 +462,7 @@ export const PublicPortal: React.FC<{
             <div className="text-xs font-bold text-amber-400 uppercase tracking-wider">Bộ phận Trực ban</div>
             <h3 className="text-lg font-bold">Trung Tâm CNTT & Thư Viện</h3>
             <p className="text-xs text-slate-300 leading-relaxed">
-              Trụ sở: Tầng 3, Nhà Hiệu bộ & Trung tâm Thông tin - Thư viện, Trường Đại học Thủ đô Hà Nội.
+              Trụ sở: Tầng 2, Nhà H2, Trường Đại học Thủ đô Hà Nội.
             </p>
           </div>
 
@@ -479,7 +479,7 @@ export const PublicPortal: React.FC<{
             <div className="text-xs font-bold text-emerald-400 uppercase tracking-wider">Kênh liên hệ trực tiếp</div>
             <div className="text-xs space-y-1.5 text-slate-300">
               <p>
-                📞 Hotline tiếp nhận: <strong className="text-white">024.3756.9999</strong> (Máy lẻ 101)
+                📞 Hotline tiếp nhận: <strong className="text-white">090.357.9999</strong>
               </p>
               <p>
                 ✉️ Email kỹ thuật: <strong className="text-white">hotro.it@hnmu.edu.vn</strong>
