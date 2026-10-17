@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  itdesk-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: itdesk_university_portal
+    restart: always
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+    ports:
+      # Ánh xạ ra cổng 3000 của máy chủ nội bộ
+      - "3000:3000"
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:3000/api/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    volumes:
+      # Mount lưu trữ dữ liệu bền vững (nếu có thêm tài liệu đính kèm)
+      - itdesk_data:/app/data
+
+volumes:
+  itdesk_data:
+    driver: local

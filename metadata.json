@@ -1,0 +1,6 @@
+{
+  "name": "UniIT Desk - Cổng Thông Tin & Hỗ Trợ Kỹ Thuật CNTT",
+  "description": "Cổng thông tin và hỗ trợ dịch vụ CNTT trường Đại học: tiếp nhận yêu cầu, điều phối kỹ thuật viên, theo dõi tiến độ, tra cứu hướng dẫn và báo cáo điều hành cho lãnh đạo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
