@@ -460,7 +460,7 @@ export const PublicPortal: React.FC<{
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="space-y-2">
             <div className="text-xs font-bold text-amber-400 uppercase tracking-wider">Bộ phận Trực ban</div>
-            <h3 className="text-lg font-bold">Trung Tâm CNTT & Thư Viện</h3>
+            <h3 className="text-lg font-bold">Trung Tâm KHCN & QLTB</h3>
             <p className="text-xs text-slate-300 leading-relaxed">
               Trụ sở: Tầng 2, Nhà H2, Trường Đại học Thủ đô Hà Nội.
             </p>
