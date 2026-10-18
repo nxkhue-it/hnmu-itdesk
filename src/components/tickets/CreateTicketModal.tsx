@@ -135,7 +135,7 @@ export const CreateTicketModal: React.FC = () => {
               </button>
             </div>
             <div className="text-[11px] text-slate-400">
-              Cần hỗ trợ khẩn cấp tại phòng học? Vui lòng liên hệ Hotline: <strong>024.3756.8888</strong>
+              Cần hỗ trợ khẩn cấp tại phòng học? Vui lòng liên hệ Hotline: <strong>090.357.8888</strong>
             </div>
           </div>
         ) : (
